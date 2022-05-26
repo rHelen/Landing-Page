@@ -8,6 +8,7 @@ let nomeOk = false;
 let EmailOk = false;
 let senhaOk = false;
 let telefoneOk = false;
+let github = document.querySelector("#github")
 
 nome.style.width = "100%";
 email.style.width = "100%";
@@ -76,4 +77,13 @@ function enviar() {
   } else {
     alert("Revise os campos e tente novamente");
   }
+}
+
+function githubZoom(){
+  github.style.width = '14rem'
+  github.style.height = '14rem'
+}
+function githubNormal(){
+  github.style.width = '12rem'
+  github.style.height = '12rem'
 }
