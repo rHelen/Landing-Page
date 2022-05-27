@@ -14,7 +14,7 @@
     />
     <style>
       body {
-        background-image: url("img/aaaaaa.jpg");
+        background-image: url("img/sky.png");
         background-repeat: no-repeat;
       }
       html {
@@ -26,7 +26,7 @@
   <body>
     <!--Navbar-->
     <nav
-      class="navbar navbar-expand-lg navbar-dark primary-color fixed-top bg-dark"
+      class="navbar navbar-expand-lg navbar-dark primary-color cor p-1 container-fluid w-100"
     >
       <!-- Navbar brand -->
       <a class="navbar-brand" href="#">Blog Pessoal</a>
@@ -97,7 +97,7 @@
 
     <div
       id="carouselExampleSlidesOnly"
-      class="carousel slide center mt-5"
+      class="carousel slide center mt-5 "
       data-ride="carousel"
     >
       <div class="carousel-inner col-5 container mb-3 py-5">
@@ -148,11 +148,11 @@
     </div>
 
     <div
-      class="container col-8 justify-content-around center d-flex my-5"
+      class="container justify-content-around w-75 d-flex align-items-center my-5"
       id="cards"
     >
-      <div class="card" style="width: 18rem">
-        <img class="card-img-top" src="img/web.png" alt="Card image cap" />
+      <div class="card" style="width: 15rem;">
+        <img class="card-img-top justify-content-center align-items-center container h-75 w-75" src="img/web.png" alt="Card image cap" />
         <div class="card-body">
           <p class="card-text">
             Some quick example text to build on the card title and make up the
@@ -161,8 +161,8 @@
         </div>
       </div>
 
-      <div class="card" style="width: 18rem">
-        <img class="card-img-top" src="img/html.png" alt="Card image cap" />
+      <div class="card" style="width: 15rem">
+        <img class="card-img-top justify-content-center align-items-center container h-75 w-75" src="img/html.png" alt="Card image cap" />
         <div class="card-body">
           <p class="card-text">
             Some quick example text to build on the card title and make up the
@@ -171,6 +171,8 @@
         </div>
       </div>
     </div>
+
+    <div>
     <h2 class="center" id="cadastro">Cadastre-se</h2>
     <div class="container col-5 mb-50">
       <form>
@@ -201,11 +203,22 @@
         <div id="txtTelefone" class="mb-20"></div>
       </form>
     </div>
-    <div class="container col-4 mb-30">
+
+
+    <div class="container d-flex align-items-center justify-content-center mb-30">
       <button onclick="enviar()" class="pr-3 pl-3 py-1 rounded-pill">
         Cadastrar
       </button>
-      <span>Já tem uma conta?</span>
+      <span class="mx-2">Já tem uma conta?</span>
+      
+        <span><a
+          href=""
+          class="btn btn-default btn-rounded p-0"
+          data-toggle="modal"
+          data-target="#modalLoginForm"
+          >Faça login</a
+        ></span>
+      
     </div>
 
     <div
@@ -267,15 +280,9 @@
       </div>
     </div>
 
-    <div class="text-center container col-2">
-      <span><a
-        href=""
-        class="btn btn-default btn-rounded mb-4"
-        data-toggle="modal"
-        data-target="#modalLoginForm"
-        >Faça login</a
-      ></span>
-    </div>
+    
+  </div>
+</div>
 
     <div class="container col-3 center my-5">
       <a href="https://github.com/rHelen" target="_blank"
@@ -289,7 +296,7 @@
       /></a>
     </div>
 
-    <div class="container col-6 mb-3" id="video">
+    <div class="container justify-content-center align-items-center d-flex mb-3 w-75" id="video">
       <iframe
         width="560"
         height="315"

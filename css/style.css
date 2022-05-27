@@ -13,38 +13,6 @@
     height: 35px;
 }
 
-
-#menu {
-    /* background-color: #ffffff; */
-    display: table;
-    width: 100%;
-}
-
-#menu ul li {
-    target: "_blank"
-}
-
-#menu ul {
-    list-style: none;
-}
-
-#menu ul li {
-    display: inline;
-}
-
-#menu ul li a {
-    padding: 5px 20px;
-    font: 13px verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    /* background-color: #ffffff; */
-    text-decoration: none;
-    float: left;
-}
-
-#menu ul li a:hover {
-    color: #000000;
-    background: rgb(255, 210, 234);
-}
 .mb-50{
     margin-bottom: 50px;
 }
@@ -55,6 +23,12 @@
 
 .center{
     text-align: center;
+}
+.cor{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.cardsize{
+    height: 100px;
 }
 
 
